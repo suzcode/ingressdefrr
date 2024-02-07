@@ -1,6 +1,6 @@
 steps:
 
-# deploy ingress image to GKE
+# deploy ingress image to GKE and create ingress
 - name: "gcr.io/cloud-builders/gke-deploy"
   args:
   - apply
