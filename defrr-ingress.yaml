@@ -13,6 +13,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: web-map-http
+            name: defrr-app-service
             port:
               number: 80
