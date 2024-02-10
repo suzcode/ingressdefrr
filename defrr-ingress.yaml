@@ -4,6 +4,7 @@ metadata:
   name: defrr-ingress
   annotations:
     kubernetes.io/ingress.class: gce
+    kubernetes.io/backend-config: '{"default": "gcs-backend-config"}'
 spec:
   rules:
   - host: defrr.com
